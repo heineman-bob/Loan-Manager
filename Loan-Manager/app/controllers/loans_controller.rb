@@ -1,17 +1,22 @@
 class LoansController < ApplicationController
-    def index
+    
+    #Used to see data during development
+    def GetAllLoans
+
         @loans = Loan.all
 
         respond_to do |format|
             format.json { render json: @loans }
         end
+
     end
 
-    def show
+    def GetLoan
+
         @loan = Loan.find(params[:id])
 
         respond_to do |format|
             format.json { render json: @loan }
         end
-    end
+    end 
 end
