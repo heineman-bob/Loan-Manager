@@ -15,6 +15,4 @@ We need an API to manage a loan's scheduled payments.   The API should support:
 
 ---
 
-```
-Implement a Rails app with working API, DB schema, and any controllers, models, views, or other miscellaneous classes that you deem necessary.   Feel free to make whatever assumptions you like and note them in a README. 
-```
+Implement a Rails app with working API, DB schema, and any controllers, models, views, or other miscellaneous classes that you deem necessary.  Feel free to make whatever assumptions you like and note them in a README. 
