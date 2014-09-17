@@ -1,7 +1,0 @@
-<h1>Loan Manager</h1>
-<p>Select the loan you would like to manage<p>
-
-<% @loans.each do |loan| %> 
-    <a href="loan/<%= loan.id %>"><%= loan.id %></a>
-    <br/>    
-<% end %>
