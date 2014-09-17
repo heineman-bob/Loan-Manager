@@ -44,5 +44,6 @@ I assume that scheduling a payment doesn't actually affect the loan model other 
 I assume I should be doing some error checking for scheduling a payment like greater than or equal to the current date
 	
 ###Initial Design Thoughts 
-Create Loan model
-Create scheduled payment model
+Create Loan model  
+Create scheduled payment model  
+Styling of client is insignificant
