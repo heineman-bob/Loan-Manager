@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'loans/index'
+
+  get 'loans/show/:id' => 'loans#show'
+
   get 'home/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
