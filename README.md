@@ -29,11 +29,13 @@ Implement a Rails app with working API, DB schema, and any controllers, models, 
 
 1. git clone the app
 2. bundle install to get sextant gem
-3. run rake db:seed to get test data
+3. run rake db:migrate db:seed to get test data
 3. rails server
 4. Navigate to localhost:3000 in browser 
 5. use web proxy to submit post for creating payments or other similar toolset
    * I used this [tool](https://www.sprintapi.com/dhcs.html) 
+
+The homepage should be self explanitory to find how to use the functionality.
    
 ####Environment
 rails 4.1.6 being used
