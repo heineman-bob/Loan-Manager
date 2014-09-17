@@ -1,4 +1,7 @@
 class PaymentsController < ApplicationController
+    
+    #Return single payment based on payment's id
+    #Used during development
     def GetPayment
         @payment = Payment.find(params[:id])
 
@@ -7,12 +10,15 @@ class PaymentsController < ApplicationController
         end
     end
 
+
+    #Main API functionality
     def ScheduleNewPayment
         @loan = Loan.find(params[:loan_id])
         @payment = @loan.payments.create(payment_params)
         render status: 200, json: @controller.to_json
     end
 
+    #Main API functionality
     def GetAllPaymentsForLoan
         @payments = Payment.where(loan_id: params[:id])
 

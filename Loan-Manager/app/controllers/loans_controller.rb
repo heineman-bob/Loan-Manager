@@ -1,6 +1,6 @@
 class LoansController < ApplicationController
     
-    #Used to see data during development
+    #Used to see data during development so I'm keeping it
     def GetAllLoans
 
         @loans = Loan.all
@@ -8,7 +8,6 @@ class LoansController < ApplicationController
         respond_to do |format|
             format.json { render json: @loans }
         end
-
     end
 
     def GetLoan

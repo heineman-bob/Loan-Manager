@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
 
-  get 'home/index'
-
   #####################################
   #  Loan API functionality
   #####################################
@@ -16,5 +14,5 @@ Rails.application.routes.draw do
   post 'ScheduleNewPayment' => 'payments#ScheduleNewPayment'
 
   #App root
-  root 'home#index'
+  root 'sextant/routes#index'
 end
