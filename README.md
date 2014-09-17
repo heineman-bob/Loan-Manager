@@ -1,7 +1,7 @@
 Loan-Manager
 ============
 
-# Payments API Coding Exercise   
+### Payments API Coding Exercise   
 
 We need an API to manage a loan's scheduled payments.   The API should support:   
 
